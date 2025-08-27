@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: radial-gradient(circle at center, #0d0d0d 0%, #000000 100%);
+    color: #E0E0E0;
+    font-family: 'Roboto', Arial, sans-serif;
+    background-attachment: fixed;
+}
+
+
+.banner {
+    background-image: url("Imagens/Glossário.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 2px solid rgba(200,200,200,0.3);
+    box-shadow: 0 8px 30px rgba(192,192,192,0.25);
+}
+
+
+.intro {
+    color: #D9D9D9;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(192,192,192,0.3);
+    padding: 32px 28px;
+    margin: 40px auto;
+    max-width: 1000px;
+    text-align: center;
+    background: linear-gradient(135deg, #111111, #1a1a1a);
+    border: 1px solid rgba(200,200,200,0.2);
+}
+
+.intro p {
+    color: #C0C0C0;
+    font-size: 1.4em;
+    line-height: 1.6;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 0 0 6px #AAA, 0 0 20px rgba(255,255,255,0.3);
+}
+
+
+.linha {
+    border: none;
+    height: 2px;
+    margin: 30px auto;
+    background: linear-gradient(90deg, transparent, #C0C0C0, transparent);
+    width: 80%;
+}
+
+
+.botaodascoisa {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    background: linear-gradient(135deg, #1a1a1a, #2b2b2b);
+    border: 1px solid rgba(200,200,200,0.3);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+    border-radius: 28px;
+    padding: 28px 50px 20px 50px;
+    box-shadow: 0 2px 20px rgba(192,192,192,0.2);
+    width: 260px;
+    min-height: 260px;
+    color: #E0E0E0;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.btn:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 25px #C0C0C0, 0 0 50px rgba(255,255,255,0.4);
+    background: linear-gradient(135deg, #2a2a2a, #3a3a3a);
+}
+
+
+.icone-btn {
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 15px;
+    border-radius: 16px;
+    object-fit: contain;
+    filter: drop-shadow(0 0 10px rgba(192,192,192,0.5));
+}
+
+
+.btn-label {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #E0E0E0;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 0 0 6px #C0C0C0, 0 0 15px rgba(255,255,255,0.6);
+}
+
+
+footer {
+    text-align: center;
+    color: #AAA;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 0.95em;
+    text-shadow: 0 0 6px rgba(200,200,200,0.4);
+}

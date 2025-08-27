@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="all.css">
+</head>
+<body>
+    <div class="neon-box">
+        &lt;Glossário Interativo de Tags JavaScript&gt;
+      </div>
+    <br><br>
+<div class="card">
+    <details>
+      <summary class="card-header">O que é a estrutura <code>if</code>?</summary>
+      <div class="card-content">
+        <p>Executa um bloco de código se uma condição for verdadeira.</p>
+        <p><strong>Exemplo:</strong></p>
+        <pre>
+  int idade = 18;
+  if (idade >= 18) {
+      System.out.println("Maior de idade");
+  }
+        </pre>
+      </div>
+    </details>
+  </div>
+  
+ 
+  <div class="card">
+    <details>
+      <summary class="card-header">O que é a estrutura <code>else</code>?</summary>
+      <div class="card-content">
+        <p>Executa um bloco de código caso a condição do <code>if</code> seja falsa.</p>
+        <p><strong>Exemplo:</strong></p>
+        <pre>
+  int idade = 16;
+  if (idade >= 18) {
+      System.out.println("Maior de idade");
+  } else {
+      System.out.println("Menor de idade");
+  }
+        </pre>
+      </div>
+    </details>
+  </div>
+  
+  
+  <div class="card">
+    <details>
+      <summary class="card-header">O que é a estrutura <code>else if</code>?</summary>
+      <div class="card-content">
+        <p>Permite testar múltiplas condições sequenciais.</p>
+        <p><strong>Exemplo:</strong></p>
+        <pre>
+  int nota = 75;
+  if (nota >= 90) {
+      System.out.println("Excelente");
+  } else if (nota >= 70) {
+      System.out.println("Bom");
+  } else {
+      System.out.println("Precisa melhorar");
+  }
+        </pre>
+      </div>
+    </details>
+  </div>
+  
+ 
+  <div class="card">
+    <details>
+      <summary class="card-header">O que é a estrutura <code>switch</code>?</summary>
+      <div class="card-content">
+        <p>Seleciona um bloco de código para executar baseado no valor de uma variável.</p>
+        <p><strong>Exemplo:</strong></p>
+        <pre>
+  int dia = 3;
+  switch (dia) {
+      case 1:
+          System.out.println("Domingo");
+          break;
+      case 2:
+          System.out.println("Segunda");
+          break;
+      case 3:
+          System.out.println("Terça");
+          break;
+      default:
+          System.out.println("Outro dia");
+  }
+        </pre>
+      </div>
+    </details>
+  </div>
+  
+ 
+  <div class="card">
+    <details>
+      <summary class="card-header">O que é a estrutura <code>case</code>?</summary>
+      <div class="card-content">
+        <p>Define cada condição dentro de um <code>switch</code>.</p>
+        <p><strong>Exemplo:</strong></p>
+        <pre>
+  switch (opcao) {
+      case 1:
+          System.out.println("Opção 1");
+          break;
+      case 2:
+          System.out.println("Opção 2");
+          break;
+      default:
+          System.out.println("Opção inválida");
+  }
+        </pre>
+      </div>
+    </details>
+  </div>
+  <br><br>
+  <button class="btn-voltar" onclick="window.history.back()">⮌ Voltar</button>
+</body>
+</html>
